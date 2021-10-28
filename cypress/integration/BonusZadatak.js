@@ -21,8 +21,6 @@ describe('BonusZadatak', function() {
 
         }).click()
 
-        //cy.xpath('//input[@type="text"]').eq(0).type('2020-07-01{enter}',{force: true})
-
         cy.xpath('//input[@type="text"]').eq(0).focus().type('2020-07-01{enter}',{force: true})
 
         cy.get('#ooui-php-7 > .oo-ui-inputWidget-input').click({force: true})
@@ -30,9 +28,6 @@ describe('BonusZadatak', function() {
         cy.get('.before > .mw-changeslist-date', {timeout: 3000}).should(($x) => {
             expect($x).have.text('22:33, 24. travnja 2020.')
         })
-        
-    
-
         
 
     })
