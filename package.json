@@ -1,0 +1,18 @@
+{
+  "name": "zadatak_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test --headed",
+    "chrome": "npm run test -- --browser chrome"
+
+  },
+  "author": "Mario Jelkić",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.7.0",
+    "cypress-xpath": "^1.6.2"
+  }
+}
