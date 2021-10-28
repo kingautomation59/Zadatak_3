@@ -31,8 +31,10 @@ describe('BonusZadatak', function() {
             expect($x).have.text('22:33, 24. travnja 2020.')
         })
         
+    
 
         
+
     })
 
 
